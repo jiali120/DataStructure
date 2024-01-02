@@ -87,6 +87,20 @@
 > ![image](https://github.com/jiali120/DataStructure/assets/60761935/f67aba89-49c5-47a5-9816-4265c3184ffe)
 > ![image](https://github.com/jiali120/DataStructure/assets/60761935/7930cd4d-2c51-4619-926e-95876065f512)
 
+![image](https://github.com/jiali120/DataStructure/assets/60761935/7437dfc4-b5a8-4eda-a372-2133449fec77)
+> ![image](https://github.com/jiali120/DataStructure/assets/60761935/f301af40-da8c-4f8b-8126-c300c3e3a9e1)
+> ![image](https://github.com/jiali120/DataStructure/assets/60761935/905ca197-c28e-4450-8f7f-e22aa025546f)
+> > ![image](https://github.com/jiali120/DataStructure/assets/60761935/6ff61653-bdfd-4b75-a54a-87201a031fe7)
+> > ![image](https://github.com/jiali120/DataStructure/assets/60761935/ebcabce1-def6-4fab-8645-48dc0c66c156)
+> > ![image](https://github.com/jiali120/DataStructure/assets/60761935/a12f3a0d-a65c-4f85-9c18-3db5776e468f)
+> > ![image](https://github.com/jiali120/DataStructure/assets/60761935/2b69406c-24a2-4090-8ee2-3f4cf57811cb)
+> > ![image](https://github.com/jiali120/DataStructure/assets/60761935/0df148b8-3b4f-4efd-9bf0-4c4edba8542f)
+
+
+
+
+
+
 
 
 
