@@ -96,8 +96,12 @@
 > > ![image](https://github.com/jiali120/DataStructure/assets/60761935/2b69406c-24a2-4090-8ee2-3f4cf57811cb)
 > > ![image](https://github.com/jiali120/DataStructure/assets/60761935/0df148b8-3b4f-4efd-9bf0-4c4edba8542f)
 
-
-
+### Linked Lists
+**advantage:**
+1. you can add and remove elements at any position in O(1).
+2. linked lists have the advantage of not having fixed sizes.While dynamic arrays can be resized, under the hood they still are allocated a fixed size - it's just that when this size is exceeded, the array is resized, which is expensive.
+**disadvantages:**
+1. linked lists have more overhead than arrays - every element needs to have extra storage for the pointers. If you are only storing small items like booleans or characters, then you may be more than doubling the space needed.
 
 
 
