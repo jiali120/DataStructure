@@ -96,7 +96,10 @@
 > > ![image](https://github.com/jiali120/DataStructure/assets/60761935/2b69406c-24a2-4090-8ee2-3f4cf57811cb)
 > > ![image](https://github.com/jiali120/DataStructure/assets/60761935/0df148b8-3b4f-4efd-9bf0-4c4edba8542f)
 
-### Linked Lists
+
+
+## Linked Lists
+### Nodes are an abstract idea. A node can be thought of as an element but with more information than just one piece of data like an integer or string.
 **advantage:**
 1. you can add and remove elements at any position in O(1).
 2. linked lists have the advantage of not having fixed sizes.While dynamic arrays can be resized, under the hood they still are allocated a fixed size - it's just that when this size is exceeded, the array is resized, which is expensive.
@@ -108,19 +111,3 @@
 
 Networking is a playground for interdisciplinary research innovations
 The Internet's huge transformative role is connected with an ever-expanding and evolving collection of technologies, system and protocol architectures, algorithms, as well as powerful applications. Indeed, the Internet is an amazing “playground” of ongoing cross-disciplinary innovations. These innovations are coming from fields such as distributed systems, operating systems, computer architecture, software engineering, algorithms and data structures, graph theory, queuing theory, and game theory, to name a few. Additionally, these include mechanism designs stemming from machine learning and AI, cryptography, programming languages, formal methods, and more. 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## Linked Lists
-### Nodes are an abstract idea. A node can be thought of as an element but with more information than just one piece of data like an integer or string.
