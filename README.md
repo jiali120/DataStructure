@@ -111,3 +111,27 @@
 
 ## Networking is a playground for interdisciplinary research innovations
 The Internet's huge transformative role is connected with an ever-expanding and evolving collection of technologies, system and protocol architectures, algorithms, as well as powerful applications. Indeed, the Internet is an amazing “playground” of ongoing cross-disciplinary innovations. These innovations are coming from fields such as distributed systems, operating systems, computer architecture, software engineering, algorithms and data structures, graph theory, queuing theory, and game theory, to name a few. Additionally, these include mechanism designs stemming from machine learning and AI, cryptography, programming languages, formal methods, and more. 
+
+
+
+
+
+
+
+## Graphs DFS
+[
+ [1, 1, 0],
+ [1, 1, 0],
+ [0, 0, 1]
+]
+![image](https://github.com/jiali120/DataStructure/assets/60761935/021bdda5-9fbc-492d-8ce0-f0a2c058d37b)
+
+![image](https://github.com/jiali120/DataStructure/assets/60761935/a3e7bf58-c469-4a6e-8232-b4008179c322)
+
+Example： 547， 323
+1. creat graph first
+2. make "seen" marker for each node and call dfs()
+3. creat dfs()
+    ![image](https://github.com/jiali120/DataStructure/assets/60761935/a7bc1a19-29d4-472a-8642-2321d3c0f3b0)
+
+
