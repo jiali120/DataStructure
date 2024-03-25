@@ -135,3 +135,49 @@ Example： 547， 323
     ![image](https://github.com/jiali120/DataStructure/assets/60761935/a7bc1a19-29d4-472a-8642-2321d3c0f3b0)
 
 
+200. Number of Islands
+> ![image](https://github.com/jiali120/DataStructure/assets/60761935/ffcf9fbb-d6aa-4f2c-8edc-faacebe4ad38)
+> ![image](https://github.com/jiali120/DataStructure/assets/60761935/73e89bcc-2934-4864-bd77-fab926816d97)
+
+[  ['1', '1', '0', '0', '0'],
+  ['1', '1', '0', '0', '0'],
+  ['0', '0', '1', '0', '0'],
+  ['0', '0', '0', '1', '1']
+]
+
+
+
+
+![image](https://github.com/jiali120/DataStructure/assets/60761935/0675ab1d-a554-4c49-8ab6-21debabe2f24)
+[  ['1', '1', '0', '0', '0'],
+  ['1', '1', '0', '0', '0'],
+  ['0', '0', '1', '0', '0'],
+  ['0', '0', '0', '1', '1']
+]
+> 现在，我们将逐步通过 numIslands 函数：
+
+> 开始 (row = 0, col = 0):
+
+> 检查 grid[0][0]（值为 '1'），并未被访问过（seen[0][0] 为 false）。
+> 增加岛屿数量 ans，执行 dfs(0, 0, grid) 来探索整个岛屿。
+> dfs 会递归地探索所有相连的 '1'，将它们在 seen 中标记为已访问。
+> 继续 (row = 0, col = 1):
+
+> grid[0][1] 已在 dfs(0, 0, grid) 中被访问和标记，所以即使它是 '1'，numIslands 也不会对它进行处理。
+> 跳过所有已访问的陆地，直到 (row = 0, col = 2):
+
+> grid[0][2] 是 '0'，没有岛屿要探索。
+> 直到 (row = 0, col = 4) 完成第一行的所有列。
+
+> 前进到第二行 (row = 1, col = 0):
+
+> grid[1][0] 和 grid[1][1] 在之前的 dfs 调用中已被探索和标记。
+> 循环继续进行，直到 grid[1][2]，同样是 '0'。
+> 到达 (row = 2, col = 2):
+
+> 发现新的 '1'，这意味着发现了第二个岛屿。
+> 执行 dfs(2, 2, grid)，探索这个岛屿。
+> 最后，到达 (row = 3, col = 3):
+
+> 发现 '1'，开始第三次 dfs 调用，探索最后一个岛屿。
+> 通过这个过程，我们可以看到每个 '1' 最终都会被探索一次，numIslands 最终统计并返回了岛屿的数量，这个例子中的数量是 3。
