@@ -30,6 +30,11 @@
 > > > ![image](https://github.com/jiali120/DataStructure/assets/60761935/32ed98a5-e445-4479-8637-27702c9b30d0)
 > > > ![image](https://github.com/jiali120/DataStructure/assets/60761935/af8a2346-79c1-46e1-97f4-d67a11d353f3)
 
+557题：
+> ![image](https://github.com/jiali120/DataStructure/assets/60761935/25ef9d6d-323b-4142-b80e-abb6c8412ca3)
+
+> ![image](https://github.com/jiali120/DataStructure/assets/60761935/d929aa46-f7dd-448b-8632-d51139aada26)
+
 ### Sliding Window
 1. Like two pointers, sliding windows work the same with arrays and strings - the important thing is that they're iterables with ordered elements.
 
