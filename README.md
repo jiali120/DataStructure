@@ -35,6 +35,11 @@
 
 > ![image](https://github.com/jiali120/DataStructure/assets/60761935/d929aa46-f7dd-448b-8632-d51139aada26)
 
+关于String in Java:  2000. Reverse Prefix of Word
+> ![image](https://github.com/jiali120/DataStructure/assets/60761935/81c52e94-035f-4c39-8233-8376e4c08c30)
+> ![image](https://github.com/jiali120/DataStructure/assets/60761935/a55e0e51-2b1f-4421-9124-62d9de04ca71)
+
+
 ### Sliding Window
 1. Like two pointers, sliding windows work the same with arrays and strings - the important thing is that they're iterables with ordered elements.
 
