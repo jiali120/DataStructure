@@ -191,3 +191,55 @@ Example： 547， 323
 
 > 发现 '1'，开始第三次 dfs 调用，探索最后一个岛屿。
 > 通过这个过程，我们可以看到每个 '1' 最终都会被探索一次，numIslands 最终统计并返回了岛屿的数量，这个例子中的数量是 3。
+
+
+
+## Stacks and Queues
+>  1. a stack followed a LIFO pattern(last in, first out); a queue follows FIFO (first in first out).
+>  2. In a stack, elements are added and removed from the same side; In a queue, elements are added and removed from opposite sides.
+>
+> Queues:
+> > // Declaration: Java supports multiple implementations, but we will using
+> > // the Queue interface with the LinkedList implementation. Specify the data type
+> > Queue<Integer> queue = new LinkedList<>();
+
+> > // If you want to initialize it with some initial values:
+> >Queue<Integer> queue = new LinkedList<>(Arrays.asList(1, 2, 3));
+
+> > // Enqueueing/adding elements:
+> >queue.offer(4);
+> >queue.offer(5);
+
+> > // Dequeuing/removing elements:
+> >queue.poll(); // 1
+> >queue.poll(); // 2
+
+> > // Check if empty
+> > queue.isEmpty(); // false
+
+> > // Check element at front of queue (next element to be removed)
+> > queue.peek(); // 3
+
+> > // Get size
+> > queue.size(); // 3
+
+![image](https://github.com/jiali120/DataStructure/assets/60761935/2bf3d0ba-6515-45ac-a801-f65c83fb3548)
+![image](https://github.com/jiali120/DataStructure/assets/60761935/d92ec895-ec04-49a1-8d09-e974a38b11f1)
+![image](https://github.com/jiali120/DataStructure/assets/60761935/50f5e290-8592-48f1-a526-d4f4c79c20ab)
+
+
+![image](https://github.com/jiali120/DataStructure/assets/60761935/080852e5-9ca7-4d1c-96f2-638e941c8f4c)
+![image](https://github.com/jiali120/DataStructure/assets/60761935/8124acfe-eb77-4b6c-a34d-1a34ba20e8b6)
+![image](https://github.com/jiali120/DataStructure/assets/60761935/eeba5bde-f210-47e8-97ec-f1045fcc8c42)
+![image](https://github.com/jiali120/DataStructure/assets/60761935/8d8d91e2-1632-4fe7-b095-e0e270c95a4b)
+![image](https://github.com/jiali120/DataStructure/assets/60761935/a705c58a-3bc7-471b-b920-475255a0c061)
+![image](https://github.com/jiali120/DataStructure/assets/60761935/fa6c160c-08d9-456b-8071-71c9006f6818)
+
+
+
+
+
+
+
+
+
