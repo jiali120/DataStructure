@@ -3,6 +3,11 @@
 1. Arrays(1D) and strings are very similar: they both represent an ordered group of elements.
 2. Similarly, strings are implemented differently between languages. In Python and Java, they are immutable. In C++, they are mutable.
    O(n), n is the size of the string if there are string ="a,b,c"
+### Reverse Word
++ 151. Reverse Words in a String
+> ![image](https://github.com/jiali120/DataStructure/assets/60761935/39b728e7-d231-4229-94d1-b4102bc6b97d)
+> ![image](https://github.com/jiali120/DataStructure/assets/60761935/0ba4ef60-f95e-449c-a574-50884dc2919d)
+
 ### Two Pointers
 1. Two pointers is an extremely common technique used to solve array and string problems.
    
