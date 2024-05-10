@@ -3,6 +3,19 @@
 1. Arrays(1D) and strings are very similar: they both represent an ordered group of elements.
 2. Similarly, strings are implemented differently between languages. In Python and Java, they are immutable. In C++, they are mutable.
    O(n), n is the size of the string if there are string ="a,b,c"
+
+### Prefix Sum
++ 560. Subarray Sum Equals K
+> ![image](https://github.com/jiali120/DataStructure/assets/60761935/9aa9beab-2522-48b1-99a6-8a1c09c7aeb6)
+> ![image](https://github.com/jiali120/DataStructure/assets/60761935/6b68a26d-5e2d-4738-b54b-16327bafc9d1)
+> ![image](https://github.com/jiali120/DataStructure/assets/60761935/171aa9a4-87f5-40bd-a322-4f6a8b94d2d8)
+> ![image](https://github.com/jiali120/DataStructure/assets/60761935/5624912a-3ce2-4983-81a9-83aafc7e6fcc)
++ To summarize:
+> + We use curr to track the prefix sum.
+> + At any index i, the sum up to i is curr. If there is an index j whose prefix is curr - k, then the sum of the subarray with elements from j + 1 to i is curr - (curr - k) = k.
+> + Because the array can have negative numbers, the same prefix can occur multiple times. We use a hash map counts to track how many times a prefix has occurred.
+> + At every index i, the frequency of curr - k is equal to the number of subarrays whose sum is equal to k that end at i. Add it to the answer.
+
 ### Reverse Word
 + 151. Reverse Words in a String
 > ![image](https://github.com/jiali120/DataStructure/assets/60761935/39b728e7-d231-4229-94d1-b4102bc6b97d)
