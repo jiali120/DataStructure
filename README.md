@@ -15,6 +15,8 @@
 > + At any index i, the sum up to i is curr. If there is an index j whose prefix is curr - k, then the sum of the subarray with elements from j + 1 to i is curr - (curr - k) = k.
 > + Because the array can have negative numbers, the same prefix can occur multiple times. We use a hash map counts to track how many times a prefix has occurred.
 > + At every index i, the frequency of curr - k is equal to the number of subarrays whose sum is equal to k that end at i. Add it to the answer.
+![image](https://github.com/jiali120/DataStructure/assets/60761935/81b19664-d5e5-4281-ae95-9020ddfe8ea0)
+
 
 ### Reverse Word
 + 151. Reverse Words in a String
