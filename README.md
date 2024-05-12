@@ -212,6 +212,14 @@ Example： 547， 323
 > 发现 '1'，开始第三次 dfs 调用，探索最后一个岛屿。
 > 通过这个过程，我们可以看到每个 '1' 最终都会被探索一次，numIslands 最终统计并返回了岛屿的数量，这个例子中的数量是 3。
 
+## HashMap
+> ![image](https://github.com/jiali120/DataStructure/assets/60761935/3ae3c363-d3f1-47ac-9692-923e8ffdc952)
+> ![image](https://github.com/jiali120/DataStructure/assets/60761935/0de11049-ba46-4676-bedc-be02bd9aad38)
+
+##### 1189. Maximum Number of Balloons
+> ![image](https://github.com/jiali120/DataStructure/assets/60761935/bc55073c-fea8-4e83-a42f-becdb2c885c5)
+> ![image](https://github.com/jiali120/DataStructure/assets/60761935/3bd3629e-8dcd-41fb-a4f9-cca531a6818d)
+> ![image](https://github.com/jiali120/DataStructure/assets/60761935/12eb50ae-c8e7-4508-82ad-662e819bd0b3)
 
 
 ## Stacks and Queues
