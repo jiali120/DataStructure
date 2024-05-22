@@ -221,6 +221,9 @@ Example： 547， 323
 > ![image](https://github.com/jiali120/DataStructure/assets/60761935/3bd3629e-8dcd-41fb-a4f9-cca531a6818d)
 > ![image](https://github.com/jiali120/DataStructure/assets/60761935/12eb50ae-c8e7-4508-82ad-662e819bd0b3)
 
+* HashMap And Set
+> ![image](https://github.com/jiali120/DataStructure/assets/60761935/29e38529-9478-41eb-912d-32bd30050dda)
+> 383. Ransom Note
 
 ## Stacks and Queues
 >  1. a stack followed a LIFO pattern(last in, first out); a queue follows FIFO (first in first out).
