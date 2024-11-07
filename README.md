@@ -268,6 +268,11 @@ Example： 547， 323
 
 
 
+### Array
+682. Baseball Game
+> elif op == "+":
+            > record.append(record[-1] + record[-2])
+> record[-1] 是指 record 列表中的最后一个元素。这是 Python 中一种简便的索引方式，用来访问列表的倒数第几个元素; record[-2] 表示访问列表的倒数第二个元素，以此类推。
 
 
 
