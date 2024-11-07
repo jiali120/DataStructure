@@ -270,10 +270,30 @@ Example： 547， 323
 ## 11/7/2024
 ### Array
 682. Baseball Game
-> elif op == "+":
-            > record.append(record[-1] + record[-2])
-> record[-1] 是指 record 列表中的最后一个元素。这是 Python 中一种简便的索引方式，用来访问列表的倒数第几个元素; record[-2] 表示访问列表的倒数第二个元素，以此类推。
+elif op == "+":
+     record.append(record[-1] + record[-2])
+ > record[-1] 是指 record 列表中的最后一个元素。这是 Python 中一种简便的索引方式，用来访问列表的倒数第几个元素; record[-2] 表示访问列表的倒数第二个元素，以此类推。
 
+702. Search in a Sorted Array of Unknown Size
+> Expand the Search Boundary: First, establish a range for binary search by doubling the boundary until we go out of bounds (i.e., when ArrayReader.get(i) returns 2^{31} - 1).
+> 因为这个是unknown array, 我们不知道这个边界在哪，具体这个array多大我们也不知道，于是我们需要通过target来给这个array限定一个start和end，这样就有个新的缩小范围的array了。然后再用二分法去寻找等于target的index。这样就可以限制time complexity is O(logn) 了。
+start, end = 0, 1
+        while reader.get(end) < target and reader.get(end) != 2**31 - 1:
+            start = end 
+            end *=2
+        
+        while start <= end:
+            mid = start + (end - start) // 2
+            mid_value =reader.get(mid)
+
+            if mid_value == target:
+                return mid
+            elif mid_value < target:
+                start = mid + 1
+            else:
+                end = mid - 1
+
+        return -1
 
 
 
