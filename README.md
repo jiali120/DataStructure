@@ -295,6 +295,13 @@ start, end = 0, 1
 
         return -1
 
+## 12/1/2024
+### String
+187.  Repeated DNA Sequences
+> ![image](https://github.com/user-attachments/assets/776fd9ae-0ec0-4feb-9cf7-b91e16e7129c)
+> ![image](https://github.com/user-attachments/assets/f91638a7-2cd3-4522-ac4a-e736baf8a073)
+> 筛选结果：遍历字典，找到出现次数大于 1 的子串：AAAAACCCCC 和 CCCCCAAAAA。
+
 
 
 
