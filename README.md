@@ -301,6 +301,13 @@ start, end = 0, 1
 > ![image](https://github.com/user-attachments/assets/776fd9ae-0ec0-4feb-9cf7-b91e16e7129c)
 > ![image](https://github.com/user-attachments/assets/f91638a7-2cd3-4522-ac4a-e736baf8a073)
 > 筛选结果：遍历字典，找到出现次数大于 1 的子串：AAAAACCCCC 和 CCCCCAAAAA。
+645. Set Mismatch
+> ![image](https://github.com/user-attachments/assets/d7099592-a4d8-47ec-a0b6-e560727e6dec)
+> ![image](https://github.com/user-attachments/assets/e3a380dd-df01-4743-a2f7-0809040de69a)
+> ![image](https://github.com/user-attachments/assets/ea89fd95-c372-4216-90be-9628aa42e5a2)
+> ![image](https://github.com/user-attachments/assets/5948f312-1719-4e19-89db-0157d87ba379)
+> ![image](https://github.com/user-attachments/assets/728f9f46-dfae-4b45-a478-7e2b3206b9b9)
+
 
 
 
