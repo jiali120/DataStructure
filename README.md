@@ -308,8 +308,10 @@ start, end = 0, 1
 > ![image](https://github.com/user-attachments/assets/5948f312-1719-4e19-89db-0157d87ba379)
 > ![image](https://github.com/user-attachments/assets/728f9f46-dfae-4b45-a478-7e2b3206b9b9)
 
-
-
+### 1763. Longest Nice Substring
+> enumerate() 是 Python 的一个内置函数，它可以在 遍历一个可迭代对象（如列表、字符串等）的同时，为每个元素生成一个对应的 索引（index） 和 值（value）。
+> ![image](https://github.com/user-attachments/assets/a09196e8-aa2b-4996-93bd-2a2ebb6e6ade)
+> 2.更直观：在遍历时可以同时获得索引和值，避免出错。
 
 
 
